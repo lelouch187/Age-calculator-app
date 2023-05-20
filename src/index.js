@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
-import './fonts.scss';
+import './styles/index.scss';
 import App from './App';
 import './assets/fonts/Poppins/Poppins-Bold.ttf';
 import './assets/fonts/Poppins/Poppins-BoldItalic.ttf';
