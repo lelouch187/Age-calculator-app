@@ -6,15 +6,15 @@ const Form = () => {
     <div className="form">
       <div className="input__wrapper">
          <span>day</span>
-        <MyInput />
+        <MyInput placeHolder='DD' />
       </div>
       <div className="input__wrapper">
       <span>month</span>
-        <MyInput />
+        <MyInput placeHolder='MM' />
       </div>
       <div className="input__wrapper">
       <span>year</span>
-        <MyInput />
+        <MyInput placeHolder='YYYY' />
       </div>
     </div>
   );

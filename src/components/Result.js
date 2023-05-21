@@ -4,13 +4,13 @@ const Result = () => {
   return (
     <div className='result'>
       <p>
-        <span>38</span>years
+        <span>--</span>years
       </p>
       <p>
-        <span>3</span>month
+        <span>--</span>month
       </p>
       <p>
-        <span>26</span>days
+        <span>--</span>days
       </p>
     </div>
   );
