@@ -5,6 +5,11 @@
    margin: 0;
    padding: 0;
 }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+
 .wrapper{
    height: 100vh;
    background-color:$OffWhite;
@@ -36,6 +41,28 @@
      font-family: Regular;
    }
 }
+.input__wrapper.warning{
+      span{
+         color: $LightRed;
+      }
+      .warning--text{
+         font-size: 14px;
+         font-family: Italic;
+         position: absolute;
+         text-transform: lowercase;
+         top:40px;
+         left: 0;
+         right: 0;
+         font-weight: 400i;
+         letter-spacing: 0;
+      }
+   .input{
+      border: 1px solid $LightRed;
+      &:focus{
+         outline: 1px solid $LightRed;
+      }
+   }
+}
 .input{
    font-size: 32px;
    font-weight: Bold;
@@ -53,6 +80,7 @@
       outline: 1px solid $Purple;
    }
 }
+
 .result{
    font-weight: bold;
    font-family: ExtraBoldItalic;
