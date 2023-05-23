@@ -2,7 +2,7 @@
 
 This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-- Live Site URL: [Add live site URL here]("homepage": "https://lelouch187.github.io/Age-calculator-app")
+- Live Site URL: [https://lelouch187.github.io/Age-calculator-app]
 
 ## My process
 
@@ -36,5 +36,5 @@ const proudOfThisFunc = () => {
 ```
 ## Author
 
-- Website - [lelouch187](https://github.com/lelouch187)
-- Frontend Mentor - [@lelouch187](https://www.frontendmentor.io/profile/lelouch187)
+- Website - [https://github.com/lelouch187]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/lelouch187]
