@@ -1,5 +1,6 @@
 {
   "name": "age-calculator",
+  "homepage": "https://lelouch187.github.io/Age-calculator-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.62.1"
   }
 }
