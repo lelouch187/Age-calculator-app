@@ -36,5 +36,5 @@ const proudOfThisFunc = () => {
 ```
 ## Author
 
-- Website - [lelouch187](https://github.com/lelouch187)
-- Frontend Mentor - [@lelouch187](https://www.frontendmentor.io/profile/lelouch187)
+- Website - [https://github.com/lelouch187]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/lelouch187]
