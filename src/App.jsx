@@ -16,9 +16,10 @@ function App() {
       return;
     }
     const result = intervalToDuration({
-      start: new Date(state.inputValue.years, state.inputValue.month-1, state.inputValue.day),
-      end: new Date(),
+      start: new Date(),
+      end: new Date(state.inputValue.years, state.inputValue.month-1, state.inputValue.day),
     });
+    console.log(result)
     dispatch({ type: 'error', payload: isError(state.inputValue) });
     dispatch({ type: 'result', payload: result });
   };
