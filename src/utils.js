@@ -2,7 +2,6 @@ import { format } from 'date-fns';
 
 export const isError = (inputValue) => {
   let err = { day: null, month: null, years: null };
-  console.log(format(new Date(), 'yyyy'))
   for (let key in inputValue) {
     if (inputValue[key] === '') err = { ...err, [key]: 'This field if required' };
   }

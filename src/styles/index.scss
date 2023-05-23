@@ -88,7 +88,6 @@ input[type="number"]::-webkit-inner-spin-button {
    margin-top: 40px;
    span{
       color: $Purple;
-
    }
 }
 .button{
@@ -104,4 +103,47 @@ input[type="number"]::-webkit-inner-spin-button {
       background-color: $OffBlack;
       cursor: pointer;
    }
+}
+@media (max-width:400px) {
+   .App {
+      padding: 80px 30px 10px 30px;
+   }
+   .input{
+      font-size: 18px;
+      max-width: 27%;
+      margin-right: 15px;
+      padding: 10px;
+   }
+   .form {
+      padding-bottom: 70px; 
+      span{
+         font-size: 13px;
+         top: -35px; 
+        letter-spacing: 2px;
+      }
+   }
+   .button{
+      padding: 15px;
+      right: 50%;
+      transform: translateX(50%);
+      top: 165px;
+      img{
+         width: 25px;
+      }
+      &:hover{
+         background-color: $Purple;
+      }
+   }
+   .result{
+      font-size: 50px;
+      margin-top: 40px;
+   }
+   .input__wrapper.warning{
+      .warning--text{
+         font-size: 10px;
+         top:30px;
+         left: 10px;       
+         font-weight: 400i;
+      }
+}
 }
